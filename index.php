@@ -1,6 +1,6 @@
 <?php
-This line is modify by me(songhout)
+require "Bootstrap.php";
 
-echo "Hello Word 2";
+$people = $query->getStudentList();
 
-this new line was added by songhout too.
+require "View/student_view.php";
